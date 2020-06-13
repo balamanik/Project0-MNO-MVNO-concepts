@@ -2,11 +2,11 @@
 $padding: 10px;
 
 .container {
-  border: 1px outset red;
   text-align: left;
   padding-top: $padding;
   padding-left:$padding;
   padding-bottom: $padding;
+  display:block;
 }
 .container1 {
   @extend.container;
@@ -14,9 +14,10 @@ $padding: 10px;
   margin-right:auto;
 }
 
-.contaniner2 {
+.container2 {
   @extend.container;
   background-color: #ffff99;
+  border: 1px outset red;
   
 }
 

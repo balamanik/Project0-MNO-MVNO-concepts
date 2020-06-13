@@ -1,0 +1,14 @@
+.container, .container1, .container2 {
+	 text-align: left;
+	 padding-top: 10px;
+	 padding-left: 10px;
+	 padding-bottom: 10px;
+	 display: block;
+}
+ .container1 {
+	 margin-left: auto;
+	 margin-right: auto;
+}
+ .container2 {
+	 background-color: #ff9;
+	 border: 1px outset red;

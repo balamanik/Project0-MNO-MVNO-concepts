@@ -73,5 +73,14 @@ p {
   margin: 0 0 1em 0;
 }
 
+table {
+	  	border-collapse: collapse;
+	  	width:50%;
+				
+	}
 
+table, td, th {
+  		border: 1px solid black;
+		padding: 7px;
+	}
 
